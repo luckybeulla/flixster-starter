@@ -1,0 +1,97 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.modal-content {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 700px;
+    max-height: 80vh;
+    overflow-y: auto; 
+    position: relative;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.modal-backdrop {
+    width: 100%;
+    border-radius: 8px;
+    max-height: 400px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.close-button:hover {
+    color: #ff0000;
+}
+
+.modal-content h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+}
+
+.modal-content p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.modal-content p strong {
+    color: #000;
+}
+
+.modal-content p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+    .modal-content {
+        padding: 20px;
+    }
+
+    .modal-backdrop {
+        max-height: 200px;
+    }
+
+    .modal-content h2 {
+        font-size: 24px;
+    }
+
+    .modal-content p {
+        font-size: 14px;
+    }
+
+    .close-button {
+        font-size: 20px;
+    }
+}

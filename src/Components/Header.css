@@ -1,0 +1,36 @@
+.header {
+    background: linear-gradient(to right, #5e0400, #8b0000);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 26px;
+    font-family: "Arial", sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7); 
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.header-title {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+} 
