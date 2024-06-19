@@ -1,5 +1,3 @@
-📝 `NOTE` Use this template to initialize the contents of a README.md file for your application. As you work on your assignment over the course of the week, update the required or stretch features lists to indicate which features you have completed by changing `[ ]` to `[x]`. (🚫 Remove this paragraph before submitting your assignment.)
-
 ## Unit Assignment: Flixster
 
 Submitted by: **Lucky Beulla Muhoza**
@@ -47,9 +45,8 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
-
-`ADD_EMBEDDED_CODE_HERE`
+`https://www.loom.com/share/5aac5be5dd3c447ab3e2221ab48c05f1?sid=8b340770-8a8b-40a8-b1ce-324d502110e4`
+The sort by and filter by genre drop down menu are not visible on the chrome screen recording, but they are present and well structured on the actual webpage. 
 
 ### Reflection
 
