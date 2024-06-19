@@ -4,7 +4,7 @@ Submitted by: **Lucky Beulla Muhoza**
 
 Estimated time spent: **18** hours spent in total
 
-Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
+Deployed Application (optional): [Flixster Deployed Site](https://flixster-starter-rj1j.onrender.com)
 
 ### Application Features
 
