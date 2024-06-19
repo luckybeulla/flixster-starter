@@ -31,8 +31,8 @@ Deployed Application (optional): [Flixster Deployed Site](https://flixster-start
 
 #### STRETCH FEATURES
 
-- [ ] **Deployment**
-  - [ ] Website is deployed via Render.
+- [X] **Deployment**
+  - [X] Website is deployed via Render.
 - [X] **Embedded Movie Trailers**
   - [X] Within the popup displaying a movie's details, users can play the movie trailer.
 - [ ] **Watched Checkbox**
@@ -46,6 +46,7 @@ Deployed Application (optional): [Flixster Deployed Site](https://flixster-start
 ### Walkthrough Video
 
 `https://www.loom.com/share/5aac5be5dd3c447ab3e2221ab48c05f1?sid=8b340770-8a8b-40a8-b1ce-324d502110e4`
+
 The sort by and filter by genre drop down menu are not visible on the chrome screen recording, but they are present and well structured on the actual webpage. 
 
 ### Reflection
